@@ -27,6 +27,12 @@ int main() {
         for (int i = 0; i < m; ++i)    {
             std::cin >> v2[i];
         }*/
+
+
+
+
+
+
     std::string v1, v2;
     std::cin >> v1 >> v2;
     int n = v1.size(), m = v2.size();
