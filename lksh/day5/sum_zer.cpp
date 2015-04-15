@@ -44,7 +44,7 @@ int main() {
     std::cout << "\n";
 
     for (int k = 0; k < n; ++k) {
-        for (int i = m + 1; i>= 0; --i) {
+        for (int i = m + 1; i >= 0; --i) {
             if (d[i] > 0 && i + v[k] <= m && d[i + v[k]] == 0) {
                 d[i + v[k]] = k;
             }
